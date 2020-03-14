@@ -1,0 +1,29 @@
+body {
+	max-width: 50em;  /* 50em er = 800 pixlar - max-width = 0 til 50em*/
+	margin: 0 auto; /*top+bottom left+right*/ /*margin-left: auto; margin-right: auto;*/
+	background-color: black;
+	color: white; /*allt letur verður hvítt, nema því sé breytt annarsstaðar*/
+	font-size: 1em; /*1em = 16px -> retina skjár 1em = 32px*/
+}
+h1, h2, h3 {
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	color: pink;
+}
+.elvis {
+	color: orange;
+}
+/* ath! a:pseudo klasar 1. link 2. visited 3. hover 4. active*/
+a:link {
+	color: yellow;
+}
+a:visited {
+	color: red;
+}
+a:hover {
+	color: green;
+}
+a:active{
+	color: blue;
+}
+
+
